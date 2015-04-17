@@ -21,6 +21,7 @@
 
 
 ###Using Instruction
+
 	为单个ImageView设置浏览功能：
 	在使用的位置头文件导入”SingleWebImageView.h”
 		NSString *bmiddle = @"http://u06j20c80s2go6.jpg";"
@@ -47,3 +48,5 @@
 		_imageView0.hidden = NO;
         _imageView0.frame = CGRectMake(0, 40, btnWidth, btnWidth);    	
 		[self.view addSubview:_imageView0];
+######Remind
+	UIImageView实现图片下载并缓存到本地是由SDWebImage库实现。请先下载SDWebImage并导入到项目。该库功能强大具体可在github上直接搜索。本Demo也有附带SDWebImage库。
