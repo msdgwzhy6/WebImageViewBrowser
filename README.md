@@ -1,4 +1,6 @@
 # WebImageBrowser
+
+![image](https://github.com/ChenNan-FRAM/WebImageViewBrowser/blob/master/WebImageViewPreview.gif)
 - SingleWebImageBrowser.h
 - SingleWebImageBrowser.m
 - SingleWebImageView.h
